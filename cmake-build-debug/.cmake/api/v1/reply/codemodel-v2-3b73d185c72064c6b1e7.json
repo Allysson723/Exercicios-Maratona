@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Exercicios_Maratona",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Exercicios_Maratona::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Exercicios_Maratona-Debug-23c8e35b57538f43853b.json",
+					"name" : "Exercicios_Maratona",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amigos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amigos-Debug-17932240cabb8b6a778c.json",
+					"name" : "amigos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "figurinhas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-figurinhas-Debug-cd2747494133af355268.json",
+					"name" : "figurinhas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "figurinhas-otimizado::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-figurinhas-otimizado-Debug-97a57fa5cfe1e75f4a07.json",
+					"name" : "figurinhas-otimizado",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jogo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jogo-Debug-89a8e98c7df47d55f913.json",
+					"name" : "jogo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nota::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nota-Debug-ef10226ce23abc28945a.json",
+					"name" : "nota",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segredo-cofre::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segredo-cofre-Debug-3d97ae957c299edc6349.json",
+					"name" : "segredo-cofre",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wifi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wifi-Debug-7f767a33abe2424703a6.json",
+					"name" : "wifi",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug",
+		"source" : "/home/anybody/Documents/Projects/Exercicios-Maratona"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

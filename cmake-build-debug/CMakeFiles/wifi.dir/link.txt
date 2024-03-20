@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/wifi.dir/Semana2/wifi.cpp.o -o wifi 
