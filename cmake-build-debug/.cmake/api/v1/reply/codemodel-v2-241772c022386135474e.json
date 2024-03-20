@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Exercicios_Maratona",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Exercicios_Maratona::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Exercicios_Maratona-Debug-2dae0ee85108ff0dcda8.json",
+					"name" : "Exercicios_Maratona",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amigos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amigos-Debug-52b87e21cea8160cdb35.json",
+					"name" : "amigos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "figurinhas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-figurinhas-Debug-77535e944683c5552ab8.json",
+					"name" : "figurinhas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segredo-cofre::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segredo-cofre-Debug-86dbd678667c102467d6.json",
+					"name" : "segredo-cofre",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug",
+		"source" : "C:/Users/0063398/Documents/Projects/Exercicios-Maratona"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
