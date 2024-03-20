@@ -2,5 +2,6 @@ C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeF
 C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/amigos.dir
 C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/figurinhas.dir
 C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/segredo-cofre.dir
+C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/figurinhas-otimizado.dir
 C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/rebuild_cache.dir

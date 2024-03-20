@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "figurinhas.exe"
+			"path" : "figurinhas-otimizado.exe"
 		},
 		{
-			"path" : "figurinhas.pdb"
+			"path" : "figurinhas-otimizado.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 10,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "figurinhas::@6890427a1f51a3e7e1df",
+	"id" : "figurinhas-otimizado::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "figurinhas",
-	"nameOnDisk" : "figurinhas.exe",
+	"name" : "figurinhas-otimizado",
+	"nameOnDisk" : "figurinhas-otimizado.exe",
 	"paths" : 
 	{
 		"build" : ".",

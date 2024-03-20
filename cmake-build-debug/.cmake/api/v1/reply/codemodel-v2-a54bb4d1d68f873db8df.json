@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -59,8 +61,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "figurinhas::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-figurinhas-Debug-77535e944683c5552ab8.json",
+					"jsonFile" : "target-figurinhas-Debug-2dc9018a7493462dc0b8.json",
 					"name" : "figurinhas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "figurinhas-otimizado::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-figurinhas-otimizado-Debug-0f50b731b3d8ebc00b28.json",
+					"name" : "figurinhas-otimizado",
 					"projectIndex" : 0
 				},
 				{

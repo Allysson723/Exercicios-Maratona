@@ -115,8 +115,8 @@ build amigos.exe: CXX_EXECUTABLE_LINKER__amigos_Debug CMakeFiles/amigos.dir/List
 
 build cmake_object_order_depends_target_figurinhas: phony || CMakeFiles/figurinhas.dir
 
-build CMakeFiles/figurinhas.dir/Lista1/figurinhas.cpp.obj: CXX_COMPILER__figurinhas_unscanned_Debug C$:/Users/0063398/Documents/Projects/Exercicios-Maratona/Lista1/figurinhas.cpp || cmake_object_order_depends_target_figurinhas
-  DEP_FILE = CMakeFiles\figurinhas.dir\Lista1\figurinhas.cpp.obj.d
+build CMakeFiles/figurinhas.dir/Lista1/figurinhas1.cpp.obj: CXX_COMPILER__figurinhas_unscanned_Debug C$:/Users/0063398/Documents/Projects/Exercicios-Maratona/Lista1/figurinhas1.cpp || cmake_object_order_depends_target_figurinhas
+  DEP_FILE = CMakeFiles\figurinhas.dir\Lista1\figurinhas1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\figurinhas.dir
   OBJECT_FILE_DIR = CMakeFiles\figurinhas.dir\Lista1
@@ -129,7 +129,7 @@ build CMakeFiles/figurinhas.dir/Lista1/figurinhas.cpp.obj: CXX_COMPILER__figurin
 #############################################
 # Link the executable figurinhas.exe
 
-build figurinhas.exe: CXX_EXECUTABLE_LINKER__figurinhas_Debug CMakeFiles/figurinhas.dir/Lista1/figurinhas.cpp.obj
+build figurinhas.exe: CXX_EXECUTABLE_LINKER__figurinhas_Debug CMakeFiles/figurinhas.dir/Lista1/figurinhas1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\figurinhas.dir
@@ -172,6 +172,39 @@ build segredo-cofre.exe: CXX_EXECUTABLE_LINKER__segredo-cofre_Debug CMakeFiles/s
   TARGET_IMPLIB = libsegredo-cofre.dll.a
   TARGET_PDB = segredo-cofre.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target figurinhas-otimizado
+
+
+#############################################
+# Order-only phony target for figurinhas-otimizado
+
+build cmake_object_order_depends_target_figurinhas-otimizado: phony || CMakeFiles/figurinhas-otimizado.dir
+
+build CMakeFiles/figurinhas-otimizado.dir/Lista1/figurinhas.cpp.obj: CXX_COMPILER__figurinhas-otimizado_unscanned_Debug C$:/Users/0063398/Documents/Projects/Exercicios-Maratona/Lista1/figurinhas.cpp || cmake_object_order_depends_target_figurinhas-otimizado
+  DEP_FILE = CMakeFiles\figurinhas-otimizado.dir\Lista1\figurinhas.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\figurinhas-otimizado.dir
+  OBJECT_FILE_DIR = CMakeFiles\figurinhas-otimizado.dir\Lista1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target figurinhas-otimizado
+
+
+#############################################
+# Link the executable figurinhas-otimizado.exe
+
+build figurinhas-otimizado.exe: CXX_EXECUTABLE_LINKER__figurinhas-otimizado_Debug CMakeFiles/figurinhas-otimizado.dir/Lista1/figurinhas.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\figurinhas-otimizado.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = figurinhas-otimizado.exe
+  TARGET_IMPLIB = libfigurinhas-otimizado.dll.a
+  TARGET_PDB = figurinhas-otimizado.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -204,6 +237,8 @@ build amigos: phony amigos.exe
 
 build figurinhas: phony figurinhas.exe
 
+build figurinhas-otimizado: phony figurinhas-otimizado.exe
+
 build segredo-cofre: phony segredo-cofre.exe
 
 # =============================================================================
@@ -214,7 +249,7 @@ build segredo-cofre: phony segredo-cofre.exe
 #############################################
 # Folder: C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug
 
-build all: phony Exercicios_Maratona.exe amigos.exe figurinhas.exe segredo-cofre.exe
+build all: phony Exercicios_Maratona.exe amigos.exe figurinhas.exe segredo-cofre.exe figurinhas-otimizado.exe
 
 # =============================================================================
 # Built-in targets
