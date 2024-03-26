@@ -2,29 +2,33 @@
 
 using namespace std;
 
+struct Sala {
+    int x1, y1, x2, y2;
+};
+
+bool comparaSala(const Sala& sala1, const Sala& sala2) {
+    return sala1.x1 <= sala2.x1 && sala1.y1 >= sala2.y1  && sala1.x2 >= sala2.x2 && sala1.y2 <= sala2.y2;
+}
+
 int main() {
     int N;
     cin >> N;
-    int salas[N][4];
-    for (int i = 0; i < N; i++) {
-        for (int j = 0; j < 4; j++) {
-            cin >> salas[i][j];
-        }
+    Sala salas[N];
+    for (int i = 0; i < N; ++i) {
+        cin >> salas[i].x1 >> salas[i].y1 >> salas[i].x2 >> salas[i].y2;
     }
     int roteadores = 0;
     for (int i = 0; i < N; i++) {
-        bool contido = false;
+        bool contem = false;
         for (int j = 0; j < N; j++) {
-            if (i != j &&
-                salas[i][0] >= salas[j][0] &&
-                salas[i][1] <= salas[j][1] &&
-                salas[i][2] <= salas[j][2] &&
-                salas[i][3] >= salas[j][3]) {
-                contido = true;
-                break;
+            if(i != j){
+                contem = comparaSala(salas[i], salas[j]);
+                if (contem) {
+                    break;
+                }
             }
         }
-        if (!contido) {
+        if (!contem) {
             roteadores++;
         }
     }
