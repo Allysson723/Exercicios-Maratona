@@ -71,6 +71,7 @@ all: CMakeFiles/figurinhas-otimizado.dir/all
 all: CMakeFiles/jogo.dir/all
 all: CMakeFiles/nota.dir/all
 all: CMakeFiles/wifi.dir/all
+all: CMakeFiles/visita.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -86,6 +87,7 @@ clean: CMakeFiles/figurinhas-otimizado.dir/clean
 clean: CMakeFiles/jogo.dir/clean
 clean: CMakeFiles/nota.dir/clean
 clean: CMakeFiles/wifi.dir/clean
+clean: CMakeFiles/visita.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -277,7 +279,7 @@ CMakeFiles/nota.dir/clean:
 CMakeFiles/wifi.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wifi.dir/build.make CMakeFiles/wifi.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wifi.dir/build.make CMakeFiles/wifi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target wifi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target wifi"
 .PHONY : CMakeFiles/wifi.dir/all
 
 # Build rule for subdir invocation for target.
@@ -295,6 +297,32 @@ wifi: CMakeFiles/wifi.dir/rule
 CMakeFiles/wifi.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wifi.dir/build.make CMakeFiles/wifi.dir/clean
 .PHONY : CMakeFiles/wifi.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/visita.dir
+
+# All Build rule for target.
+CMakeFiles/visita.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/visita.dir/build.make CMakeFiles/visita.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/visita.dir/build.make CMakeFiles/visita.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target visita"
+.PHONY : CMakeFiles/visita.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/visita.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/visita.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/visita.dir/rule
+
+# Convenience name for target.
+visita: CMakeFiles/visita.dir/rule
+.PHONY : visita
+
+# clean rule for target.
+CMakeFiles/visita.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/visita.dir/build.make CMakeFiles/visita.dir/clean
+.PHONY : CMakeFiles/visita.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

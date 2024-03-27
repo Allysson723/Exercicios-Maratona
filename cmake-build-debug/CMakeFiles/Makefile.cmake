@@ -55,4 +55,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/jogo.dir/DependInfo.cmake"
   "CMakeFiles/nota.dir/DependInfo.cmake"
   "CMakeFiles/wifi.dir/DependInfo.cmake"
+  "CMakeFiles/visita.dir/DependInfo.cmake"
   )

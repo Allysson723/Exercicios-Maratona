@@ -369,6 +369,50 @@
 					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="visita">
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/visita" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 visita"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="visita/fast">
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/visita" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 visita/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option type="4"/>
@@ -410,6 +454,9 @@
 		</Unit>
 		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana2/wifi.cpp">
 			<Option target="wifi"/>
+		</Unit>
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana3/visita.cpp">
+			<Option target="visita"/>
 		</Unit>
 		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/main.cpp">
 			<Option target="Exercicios_Maratona"/>

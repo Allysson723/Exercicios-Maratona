@@ -6,5 +6,6 @@
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/jogo.dir
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/nota.dir
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/wifi.dir
+/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/visita.dir
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -220,6 +220,19 @@ wifi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wifi.dir/build.make CMakeFiles/wifi.dir/build
 .PHONY : wifi/fast
 
+#=============================================================================
+# Target rules for targets named visita
+
+# Build rule for target.
+visita: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 visita
+.PHONY : visita
+
+# fast build rule for target.
+visita/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/visita.dir/build.make CMakeFiles/visita.dir/build
+.PHONY : visita/fast
+
 Semana1/amigos.o: Semana1/amigos.cpp.o
 .PHONY : Semana1/amigos.o
 
@@ -388,6 +401,30 @@ Semana2/wifi.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wifi.dir/build.make CMakeFiles/wifi.dir/Semana2/wifi.cpp.s
 .PHONY : Semana2/wifi.cpp.s
 
+Semana3/visita.o: Semana3/visita.cpp.o
+.PHONY : Semana3/visita.o
+
+# target to build an object file
+Semana3/visita.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/visita.dir/build.make CMakeFiles/visita.dir/Semana3/visita.cpp.o
+.PHONY : Semana3/visita.cpp.o
+
+Semana3/visita.i: Semana3/visita.cpp.i
+.PHONY : Semana3/visita.i
+
+# target to preprocess a source file
+Semana3/visita.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/visita.dir/build.make CMakeFiles/visita.dir/Semana3/visita.cpp.i
+.PHONY : Semana3/visita.cpp.i
+
+Semana3/visita.s: Semana3/visita.cpp.s
+.PHONY : Semana3/visita.s
+
+# target to generate assembly for a file
+Semana3/visita.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/visita.dir/build.make CMakeFiles/visita.dir/Semana3/visita.cpp.s
+.PHONY : Semana3/visita.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -427,6 +464,7 @@ help:
 	@echo "... jogo"
 	@echo "... nota"
 	@echo "... segredo-cofre"
+	@echo "... visita"
 	@echo "... wifi"
 	@echo "... Semana1/amigos.o"
 	@echo "... Semana1/amigos.i"
@@ -449,6 +487,9 @@ help:
 	@echo "... Semana2/wifi.o"
 	@echo "... Semana2/wifi.i"
 	@echo "... Semana2/wifi.s"
+	@echo "... Semana3/visita.o"
+	@echo "... Semana3/visita.i"
+	@echo "... Semana3/visita.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
