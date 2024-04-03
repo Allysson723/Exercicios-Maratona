@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/segredo-cofre.dir/Semana1/segredo-cofre.cpp.o"
-  "CMakeFiles/segredo-cofre.dir/Semana1/segredo-cofre.cpp.o.d"
-  "segredo-cofre"
+  "CMakeFiles/segredo-cofre.dir/Semana1/segredo-cofre.cpp.obj"
+  "CMakeFiles/segredo-cofre.dir/Semana1/segredo-cofre.cpp.obj.d"
+  "libsegredo-cofre.dll.a"
+  "segredo-cofre.exe"
+  "segredo-cofre.exe.manifest"
   "segredo-cofre.pdb"
 )
 

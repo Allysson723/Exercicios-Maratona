@@ -40,13 +40,17 @@ int menorDistancia(vector<vector<pair<int, int>>>& grafo, int inicio, int fim) {
 
         cidades[cidadeAtual].explorada = true;
 
+        //iterador que se passa por cada par de vizinhos da cidade atual
         for (auto& vizinha : grafo[cidadeAtual]) {
             int cidadeVizinha = vizinha.first;
             int distancia = vizinha.second;
 
+            /*caso a distãncia da cidade vizinha até a atual seja maior que a distância do início até a cidade atual
+            mais a distância da cidade vizinha até a atual*/
             if (cidades[cidadeVizinha].distancia > cidades[cidadeAtual].distancia + distancia) {
                 cidades[cidadeVizinha].distancia = cidades[cidadeAtual].distancia + distancia;
                 cidades[cidadeVizinha].origem = cidadeAtual;
+                //adiciona a cidade que acabamos de explorar para a lista, para que seus vizinhos sejam analizados
                 filaPrioridade.push({cidades[cidadeVizinha].distancia, cidadeVizinha});
             }
         }
