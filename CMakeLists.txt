@@ -12,4 +12,7 @@ add_executable(jogo Semana2/jogo.cpp)
 add_executable(nota Semana2/nota.cpp)
 add_executable(wifi Semana2/wifi.cpp)
 add_executable(visita Semana3/visita.cpp)
-add_executable(chuva Semana 4/chuva.cpp)
+add_executable(chuva Semana 4/chuva.cpp
+        Semana5/torneio.h)
+add_executable(torneio Semana5/henrique/torneio.cpp)
+add_executable(zero Semana5/henrique/zero.cpp)
