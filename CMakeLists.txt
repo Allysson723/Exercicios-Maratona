@@ -16,3 +16,4 @@ add_executable(chuva Semana 4/chuva.cpp
         Semana5/torneio.h)
 add_executable(torneio Semana5/henrique/torneio.cpp)
 add_executable(zero Semana5/henrique/zero.cpp)
+add_executable(tempo Semana5/henrique/tempo.cpp)
