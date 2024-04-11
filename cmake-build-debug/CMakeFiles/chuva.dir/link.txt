@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/chuva.dir/Semana4/allysson/chuva.cpp.o -o chuva 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/jogo.dir/Semana2/jogo.cpp.o -o jogo 

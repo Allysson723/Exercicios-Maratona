@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/tempoH.dir/Semana5/henrique/tempo.cpp.o -o tempoH 

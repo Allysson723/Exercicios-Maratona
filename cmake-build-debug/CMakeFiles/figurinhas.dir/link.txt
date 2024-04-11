@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/figurinhas.dir/Semana1/figurinhas.cpp.o -o figurinhas 

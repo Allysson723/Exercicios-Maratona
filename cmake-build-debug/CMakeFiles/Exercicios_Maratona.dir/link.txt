@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Exercicios_Maratona.dir/main.cpp.o -o Exercicios_Maratona 

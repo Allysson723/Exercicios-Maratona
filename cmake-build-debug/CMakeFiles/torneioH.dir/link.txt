@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/torneioH.dir/Semana5/henrique/torneio.cpp.o -o torneioH 

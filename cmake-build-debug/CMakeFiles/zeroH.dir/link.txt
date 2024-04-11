@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/zeroH.dir/Semana5/henrique/zero.cpp.o -o zeroH 

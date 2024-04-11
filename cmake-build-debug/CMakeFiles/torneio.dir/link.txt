@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/torneio.dir/Semana5/allysson/torneio.cpp.o -o torneio 

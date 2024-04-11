@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/baralho.dir/Semana5/allysson/baralho.cpp.o -o baralho 
