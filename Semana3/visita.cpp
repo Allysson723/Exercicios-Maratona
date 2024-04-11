@@ -19,7 +19,7 @@ int menorDistancia(vector<vector<pair<int, int>>>& grafo, int inicio, int fim) {
     for (int i = 1; i <= n; ++i) {
         //inicializando cada cidade
         //maior valor inteiro em c++ -> numeric_limits<int>::max()
-        cidades[i] = {i, numeric_limits<int>::max(), -1, false};
+        cidades[i] = {i, 10000, -1, false};
     }
 
     cidades[inicio].distancia = 0;

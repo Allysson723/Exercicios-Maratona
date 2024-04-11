@@ -26,8 +26,8 @@ int main() {
 
             if(matriz[i][j] == '.'){
                 if(matriz[i-1][j] == 'o' ||
-                    (matriz[i][j-1] == 'o' && matriz[i+1][j-1] == '#') ||
-                    (matriz[i][j+1] == 'o' && matriz[i+1][j+1] == '#')){
+                   (matriz[i][j-1] == 'o' && matriz[i+1][j-1] == '#') ||
+                   (matriz[i][j+1] == 'o' && matriz[i+1][j+1] == '#')){
                     matriz[i][j] = 'o';
                     j = -1;
                 }
