@@ -19,7 +19,6 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: /home/anybody/Documents/Proje
   /usr/include/c++/13.2.0/bits/cpp_type_traits.h \
   /usr/include/c++/13.2.0/bits/cxxabi_forced.h \
   /usr/include/c++/13.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/13.2.0/bits/enable_special_members.h \
   /usr/include/c++/13.2.0/bits/erase_if.h \
   /usr/include/c++/13.2.0/bits/exception.h \
   /usr/include/c++/13.2.0/bits/exception_defines.h \
@@ -27,8 +26,6 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: /home/anybody/Documents/Proje
   /usr/include/c++/13.2.0/bits/functexcept.h \
   /usr/include/c++/13.2.0/bits/functional_hash.h \
   /usr/include/c++/13.2.0/bits/hash_bytes.h \
-  /usr/include/c++/13.2.0/bits/hashtable.h \
-  /usr/include/c++/13.2.0/bits/hashtable_policy.h \
   /usr/include/c++/13.2.0/bits/invoke.h \
   /usr/include/c++/13.2.0/bits/ios_base.h \
   /usr/include/c++/13.2.0/bits/istream.tcc \
@@ -59,14 +56,16 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: /home/anybody/Documents/Proje
   /usr/include/c++/13.2.0/bits/stl_iterator.h \
   /usr/include/c++/13.2.0/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13.2.0/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13.2.0/bits/stl_map.h \
+  /usr/include/c++/13.2.0/bits/stl_multimap.h \
   /usr/include/c++/13.2.0/bits/stl_pair.h \
+  /usr/include/c++/13.2.0/bits/stl_tree.h \
   /usr/include/c++/13.2.0/bits/stl_uninitialized.h \
   /usr/include/c++/13.2.0/bits/stl_vector.h \
   /usr/include/c++/13.2.0/bits/streambuf.tcc \
   /usr/include/c++/13.2.0/bits/streambuf_iterator.h \
   /usr/include/c++/13.2.0/bits/string_view.tcc \
   /usr/include/c++/13.2.0/bits/stringfwd.h \
-  /usr/include/c++/13.2.0/bits/unordered_map.h \
   /usr/include/c++/13.2.0/bits/uses_allocator.h \
   /usr/include/c++/13.2.0/bits/uses_allocator_args.h \
   /usr/include/c++/13.2.0/bits/utility.h \
@@ -93,6 +92,7 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: /home/anybody/Documents/Proje
   /usr/include/c++/13.2.0/iosfwd \
   /usr/include/c++/13.2.0/iostream \
   /usr/include/c++/13.2.0/istream \
+  /usr/include/c++/13.2.0/map \
   /usr/include/c++/13.2.0/new \
   /usr/include/c++/13.2.0/ostream \
   /usr/include/c++/13.2.0/pstl/pstl_config.h \
@@ -104,7 +104,6 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: /home/anybody/Documents/Proje
   /usr/include/c++/13.2.0/tuple \
   /usr/include/c++/13.2.0/type_traits \
   /usr/include/c++/13.2.0/typeinfo \
-  /usr/include/c++/13.2.0/unordered_map \
   /usr/include/c++/13.2.0/vector \
   /usr/include/c++/13.2.0/x86_64-unknown-linux-gnu/bits/atomic_word.h \
   /usr/include/c++/13.2.0/x86_64-unknown-linux-gnu/bits/c++allocator.h \
@@ -238,13 +237,13 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: /home/anybody/Documents/Proje
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/c++/13.2.0/cwctype:
 
@@ -255,6 +254,8 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: /home/anybody/Documents/Proje
 /usr/include/c++/13.2.0/cstdlib:
 
 /usr/include/c++/13.2.0/cstddef:
+
+/usr/include/c++/13.2.0/clocale:
 
 /usr/include/c++/13.2.0/cerrno:
 
@@ -267,6 +268,12 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: /home/anybody/Documents/Proje
 /usr/include/asm-generic/errno.h:
 
 /usr/include/c++/13.2.0/bits/streambuf.tcc:
+
+/usr/include/c++/13.2.0/bits/stl_multimap.h:
+
+/usr/include/c++/13.2.0/bits/stl_map.h:
+
+/usr/include/c++/13.2.0/bits/stl_tree.h:
 
 /usr/include/c++/13.2.0/bits/vector.tcc:
 
@@ -282,13 +289,19 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: /home/anybody/Documents/Proje
 
 /usr/include/c++/13.2.0/bits/stl_pair.h:
 
-/usr/include/c++/13.2.0/bits/basic_ios.tcc:
+/usr/include/c++/13.2.0/debug/assertions.h:
 
-/usr/include/c++/13.2.0/bits/refwrap.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/c++/13.2.0/ostream:
 
 /usr/include/c++/13.2.0/bits/std_abs.h:
 
 /usr/include/c++/13.2.0/bits/ptr_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/c++/13.2.0/bits/exception_ptr.h:
 
 /usr/include/c++/13.2.0/bits/postypes.h:
 
@@ -298,21 +311,13 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: /home/anybody/Documents/Proje
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
-/usr/include/c++/13.2.0/bits/unordered_map.h:
-
 /usr/include/c++/13.2.0/bits/ostream_insert.h:
 
 /usr/include/c++/13.2.0/bits/nested_exception.h:
 
-/usr/include/c++/13.2.0/bits/move.h:
+/usr/include/c++/13.2.0/bits/refwrap.h:
 
-/usr/include/c++/13.2.0/bits/memory_resource.h:
-
-/usr/include/c++/13.2.0/debug/assertions.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/c++/13.2.0/ostream:
+/usr/include/c++/13.2.0/bits/basic_ios.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
@@ -321,10 +326,6 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: /home/anybody/Documents/Proje
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
 /usr/include/c++/13.2.0/bits/stl_iterator_base_types.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/c++/13.2.0/unordered_map:
 
 /usr/include/c++/13.2.0/x86_64-unknown-linux-gnu/bits/c++locale.h:
 
@@ -342,11 +343,11 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: /home/anybody/Documents/Proje
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/usr/include/c++/13.2.0/bits/hashtable_policy.h:
-
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/13.2.0/bits/streambuf_iterator.h:
+
+/usr/include/c++/13.2.0/iostream:
 
 /usr/include/c++/13.2.0/x86_64-unknown-linux-gnu/bits/ctype_base.h:
 
@@ -354,29 +355,9 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: /home/anybody/Documents/Proje
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
+/usr/include/c++/13.2.0/bits/move.h:
+
 /usr/include/c++/13.2.0/bits/cxxabi_forced.h:
-
-/usr/include/c++/13.2.0/clocale:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/c++/13.2.0/vector:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/c++/13.2.0/iostream:
-
-/usr/include/c++/13.2.0/bits/enable_special_members.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/c++/13.2.0/debug/debug.h:
-
-/usr/include/c++/13.2.0/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/13.2.0/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/13.2.0/bits/stl_algobase.h:
 
 /usr/include/c++/13.2.0/cwchar:
 
@@ -387,6 +368,22 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: /home/anybody/Documents/Proje
 /usr/include/c++/13.2.0/bits/basic_ios.h:
 
 /usr/include/c++/13.2.0/bits/functional_hash.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/c++/13.2.0/vector:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/13.2.0/debug/debug.h:
+
+/usr/include/c++/13.2.0/bits/cxxabi_init_exception.h:
+
+/usr/include/c++/13.2.0/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/13.2.0/bits/stl_algobase.h:
 
 /usr/include/c++/13.2.0/bits/uses_allocator_args.h:
 
@@ -436,11 +433,15 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: /home/anybody/Documents/Proje
 
 /usr/include/c++/13.2.0/bits/locale_facets.tcc:
 
+/usr/include/c++/13.2.0/bits/memory_resource.h:
+
 /usr/include/c++/13.2.0/ext/aligned_buffer.h:
 
 /usr/include/c++/13.2.0/ext/alloc_traits.h:
 
 /usr/include/c++/13.2.0/ext/atomicity.h:
+
+/usr/include/c++/13.2.0/map:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
@@ -457,8 +458,6 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: /home/anybody/Documents/Proje
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/c++/13.2.0/initializer_list:
-
-/usr/include/c++/13.2.0/bits/hashtable.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
@@ -520,6 +519,8 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: /home/anybody/Documents/Proje
 
 /usr/include/c++/13.2.0/x86_64-unknown-linux-gnu/bits/gthr-default.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
 /usr/include/c++/13.2.0/bits/new_allocator.h:
 
 /usr/include/c++/13.2.0/x86_64-unknown-linux-gnu/bits/os_defines.h:
@@ -545,10 +546,6 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: /home/anybody/Documents/Proje
 /usr/include/c++/13.2.0/bits/localefwd.h:
 
 /usr/include/time.h:
-
-/usr/include/c++/13.2.0/bits/exception_ptr.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 

@@ -20,7 +20,6 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o
  /usr/include/c++/13.2.0/bits/cpp_type_traits.h
  /usr/include/c++/13.2.0/bits/cxxabi_forced.h
  /usr/include/c++/13.2.0/bits/cxxabi_init_exception.h
- /usr/include/c++/13.2.0/bits/enable_special_members.h
  /usr/include/c++/13.2.0/bits/erase_if.h
  /usr/include/c++/13.2.0/bits/exception.h
  /usr/include/c++/13.2.0/bits/exception_defines.h
@@ -28,8 +27,6 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o
  /usr/include/c++/13.2.0/bits/functexcept.h
  /usr/include/c++/13.2.0/bits/functional_hash.h
  /usr/include/c++/13.2.0/bits/hash_bytes.h
- /usr/include/c++/13.2.0/bits/hashtable.h
- /usr/include/c++/13.2.0/bits/hashtable_policy.h
  /usr/include/c++/13.2.0/bits/invoke.h
  /usr/include/c++/13.2.0/bits/ios_base.h
  /usr/include/c++/13.2.0/bits/istream.tcc
@@ -60,14 +57,16 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o
  /usr/include/c++/13.2.0/bits/stl_iterator.h
  /usr/include/c++/13.2.0/bits/stl_iterator_base_funcs.h
  /usr/include/c++/13.2.0/bits/stl_iterator_base_types.h
+ /usr/include/c++/13.2.0/bits/stl_map.h
+ /usr/include/c++/13.2.0/bits/stl_multimap.h
  /usr/include/c++/13.2.0/bits/stl_pair.h
+ /usr/include/c++/13.2.0/bits/stl_tree.h
  /usr/include/c++/13.2.0/bits/stl_uninitialized.h
  /usr/include/c++/13.2.0/bits/stl_vector.h
  /usr/include/c++/13.2.0/bits/streambuf.tcc
  /usr/include/c++/13.2.0/bits/streambuf_iterator.h
  /usr/include/c++/13.2.0/bits/string_view.tcc
  /usr/include/c++/13.2.0/bits/stringfwd.h
- /usr/include/c++/13.2.0/bits/unordered_map.h
  /usr/include/c++/13.2.0/bits/uses_allocator.h
  /usr/include/c++/13.2.0/bits/uses_allocator_args.h
  /usr/include/c++/13.2.0/bits/utility.h
@@ -94,6 +93,7 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o
  /usr/include/c++/13.2.0/iosfwd
  /usr/include/c++/13.2.0/iostream
  /usr/include/c++/13.2.0/istream
+ /usr/include/c++/13.2.0/map
  /usr/include/c++/13.2.0/new
  /usr/include/c++/13.2.0/ostream
  /usr/include/c++/13.2.0/pstl/pstl_config.h
@@ -105,7 +105,6 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o
  /usr/include/c++/13.2.0/tuple
  /usr/include/c++/13.2.0/type_traits
  /usr/include/c++/13.2.0/typeinfo
- /usr/include/c++/13.2.0/unordered_map
  /usr/include/c++/13.2.0/vector
  /usr/include/c++/13.2.0/x86_64-unknown-linux-gnu/bits/atomic_word.h
  /usr/include/c++/13.2.0/x86_64-unknown-linux-gnu/bits/c++allocator.h

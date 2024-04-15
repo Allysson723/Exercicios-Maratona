@@ -164,12 +164,10 @@ CMakeFiles/tempo.dir/Semana5/allysson/tempo.cpp.o: \
  /usr/include/c++/13.2.0/bits/stl_uninitialized.h \
  /usr/include/c++/13.2.0/bits/stl_vector.h \
  /usr/include/c++/13.2.0/bits/stl_bvector.h \
- /usr/include/c++/13.2.0/bits/vector.tcc \
- /usr/include/c++/13.2.0/unordered_map \
- /usr/include/c++/13.2.0/bits/unordered_map.h \
- /usr/include/c++/13.2.0/bits/hashtable.h \
- /usr/include/c++/13.2.0/bits/hashtable_policy.h \
+ /usr/include/c++/13.2.0/bits/vector.tcc /usr/include/c++/13.2.0/map \
+ /usr/include/c++/13.2.0/bits/stl_tree.h \
  /usr/include/c++/13.2.0/ext/aligned_buffer.h \
- /usr/include/c++/13.2.0/bits/enable_special_members.h \
  /usr/include/c++/13.2.0/bits/node_handle.h \
+ /usr/include/c++/13.2.0/bits/stl_map.h \
+ /usr/include/c++/13.2.0/bits/stl_multimap.h \
  /usr/include/c++/13.2.0/bits/erase_if.h

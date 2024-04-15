@@ -1,47 +1,54 @@
 #include <iostream>
 #include <vector>
-#include <unordered_map>
+#include <map>
 
 using namespace std;
 
 int main() {
     int N;
     cin >> N;
+    vector<pair<char, int>> registros;
+    map<int, pair<int, bool>> amigos;
 
-    unordered_map<int, int> tempoRecebimento;
-    unordered_map<int, int> tempoTotalRespostas;
-
-    int tempoAnterior = 0;
-    int tempoResposta = 0;
-
-    for (int i = 0; i < N; i++) {
-        char tipoEvento;
-        int idAmigo;
-        cin >> tipoEvento >> idAmigo;
-
-        if (tipoEvento == 'R') {
-            tempoRecebimento[idAmigo] = tempoAnterior;
-        } else if (tipoEvento == 'E') {
-            if (tempoRecebimento.find(idAmigo) != tempoRecebimento.end()) {
-                tempoResposta = tempoAnterior - tempoRecebimento[idAmigo];
-                tempoTotalRespostas[idAmigo] += tempoResposta > 0 ? tempoResposta : 1; // Se o tempo for zero, adiciona 1 segundo
-                tempoRecebimento.erase(idAmigo);
-            } else {
-                tempoTotalRespostas[idAmigo] = -1;
+    for (int i = 0; i < N; ++i) {
+        char C;
+        int I;
+        cin >> C >> I;
+        registros.push_back({C, I});
+        if (C != 'T') {
+            if (amigos.find(I) == amigos.end()) {
+                amigos[I] = {0, true};
             }
-        } else {
-            tempoAnterior += idAmigo;
         }
     }
-
-    // Verifica se ainda há amigos com mensagens pendentes e atribui -1 ao tempo de resposta total deles
-    for (auto& par : tempoRecebimento) {
-        tempoTotalRespostas[par.first] = -1;
+    amigos[registros[0].second].second = false;
+    for (int i = 1; i < N; ++i) {
+        if (registros[i].first != 'T') {
+            if (registros[i].first == 'E') {
+                // Alterando o estado de resposta do amigo para true
+                amigos[registros[i].second].second = true;
+            }else{
+                amigos[registros[i].second].second = false;
+            }
+            // Adicionando 1 ao tempo de resposta de todos os amigos não respondidos
+            for (auto &amigo: amigos) {
+                if (!amigo.second.second && amigo.first != registros[i].second) {
+                    amigo.second.first++;
+                }
+            }
+        } else {
+            // Adicionando o tempo do registro ao tempo de resposta de todos os amigos não respondidos
+            for (auto &amigo: amigos) {
+                if (!amigo.second.second) {
+                    amigo.second.first += registros[i].second;
+                }
+            }
+        }
     }
-
-    // Saída
-    for (auto& entrada : tempoTotalRespostas) {
-        cout << entrada.first << " " << entrada.second << endl;
+    for (const auto &amigo: amigos) {
+        // Se o amigo não tiver respondido a todas as mensagens, imprime -1 como tempo de resposta total
+        int tempo_resposta_total = amigo.second.second ? amigo.second.first : -1;
+        cout << amigo.first << " " << tempo_resposta_total << endl;
     }
 
     return 0;
