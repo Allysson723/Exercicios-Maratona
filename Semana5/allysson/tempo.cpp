@@ -1,42 +1,48 @@
 #include <iostream>
-#include <algorithm>
 #include <vector>
-#include <limits>
+#include <unordered_map>
 
 using namespace std;
-
-bool jaExiste(const std::vector<std::pair<int, int>> &amigos, int x) {
-    for (const auto &par: amigos) {
-        if (par.first == x) {
-            return true;
-        }
-    }
-    return false;
-}
 
 int main() {
     int N;
     cin >> N;
-    cin.ignore(numeric_limits<streamsize>::max(), '\n');
-    vector<pair<char, int>> registros;
-    vector<pair<int, int>> amigos;
-    for (int i = 0; i < N; ++i) {
-        char A;
-        int B;
-        cin >> A >> B;
-        if (i != 0 && A != 'T') {
-            amigos[i - 1].second += 1;
-        } else if (i != 0) {
-            //todos
-            amigos[i - 1].second += B;
-        }
-        registros.push_back({A, B});
-        if (A != 'T' && !jaExiste(amigos, B)) {
-            amigos.push_back({B, 0});
+
+    unordered_map<int, int> tempoRecebimento;
+    unordered_map<int, int> tempoTotalRespostas;
+
+    int tempoAnterior = 0;
+    int tempoResposta = 0;
+
+    for (int i = 0; i < N; i++) {
+        char tipoEvento;
+        int idAmigo;
+        cin >> tipoEvento >> idAmigo;
+
+        if (tipoEvento == 'R') {
+            tempoRecebimento[idAmigo] = tempoAnterior;
+        } else if (tipoEvento == 'E') {
+            if (tempoRecebimento.find(idAmigo) != tempoRecebimento.end()) {
+                tempoResposta = tempoAnterior - tempoRecebimento[idAmigo];
+                tempoTotalRespostas[idAmigo] += tempoResposta > 0 ? tempoResposta : 1; // Se o tempo for zero, adiciona 1 segundo
+                tempoRecebimento.erase(idAmigo);
+            } else {
+                tempoTotalRespostas[idAmigo] = -1;
+            }
+        } else {
+            tempoAnterior += idAmigo;
         }
     }
-    for (const auto &par: amigos) {
-        cout << par.first << " " << par.second << endl;
+
+    // Verifica se ainda há amigos com mensagens pendentes e atribui -1 ao tempo de resposta total deles
+    for (auto& par : tempoRecebimento) {
+        tempoTotalRespostas[par.first] = -1;
     }
+
+    // Saída
+    for (auto& entrada : tempoTotalRespostas) {
+        cout << entrada.first << " " << entrada.second << endl;
+    }
+
     return 0;
 }

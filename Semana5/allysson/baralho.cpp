@@ -1,75 +1,41 @@
 #include <iostream>
-#include <algorithm>
-#include <vector>
 #include <string>
+#include <unordered_set>
+#include <unordered_map>
 
 using namespace std;
 
 int main() {
-    string baralho;
-    vector<string> cartas;
-    vector<int> cartasNaipe;
-    int numero;
-    bool erro = false;
-    for (int i = 0; i < baralho.length(); i += 3) {
-        cartas.push_back(baralho.substr(i, 1));
-        if (cartas[i + 2] == "C") {
-            numero = stoi(cartas[i + 2] + cartas[i + 2]);
-            cartasNaipe.push_back(numero);
-            auto it = find(cartasNaipe.begin(), cartasNaipe.end(), numero);
-            if(it != cartasNaipe.end()){
-                erro = !erro;
-                cout << "erro" << endl;
-            }
-        } else if (cartas[i + 2] == "E") {
-            if(cartas[i - 1] != "E"){
-                if(!erro){
-                    cout << cartasNaipe.size() << endl;
-                }
-                cartasNaipe.clear();
-                erro = !erro;
-            }
-            numero = stoi(cartas[i + 2] + cartas[i + 2]);
-            cartasNaipe.push_back(numero);
-            auto it = find(cartasNaipe.begin(), cartasNaipe.end(), numero);
-            if(it != cartasNaipe.end()){
-                erro = !erro;
-                cout << "erro" << endl;
-            }
-        } else if (cartas[i + 2] == "U") {
-            if(cartas[i - 1] != "E"){
-                if(!erro){
-                    cout << cartasNaipe.size() << endl;
-                }
-                cartasNaipe.clear();
-                erro = !erro;
-            }
-            numero = stoi(cartas[i + 2] + cartas[i + 2]);
-            cartasNaipe.push_back(numero);
-            auto it = find(cartasNaipe.begin(), cartasNaipe.end(), numero);
-            if(it != cartasNaipe.end()){
-                erro = !erro;
-                cout << "erro" << endl;
-            }
-        } else {
-            if(cartas[i - 1] != "E"){
-                if(!erro){
-                    cout << cartasNaipe.size() << endl;
-                }
-                cartasNaipe.clear();
-                erro = !erro;
-            }
-            numero = stoi(cartas[i + 2] + cartas[i + 2]);
-            cartasNaipe.push_back(numero);
-            auto it = find(cartasNaipe.begin(), cartasNaipe.end(), numero);
-            if(it != cartasNaipe.end()){
-                erro = !erro;
-                cout << "erro" << endl;
-            }
+    string cartas;
+    getline(cin, cartas);
+
+    //elementos únicos
+    unordered_set<string> cartas_vistas;
+    unordered_map<char, int> cartas_por_naipe;
+
+    string resultado = "";
+
+    for (int i = 0; i < cartas.size(); i += 3) {
+        string carta = cartas.substr(i, 3);
+        char naipe = carta[2];
+
+        if (cartas_vistas.count(carta)) {
+            cartas_por_naipe[naipe] = -1;
+        } else if (cartas_por_naipe[naipe] != -1) {
+            cartas_vistas.insert(carta);
+            cartas_por_naipe[naipe]++;
         }
     }
-    if(erro){
-        cout << "erro" << endl;
+
+    for (char naipe : {'C', 'E', 'U', 'P'}) {
+        if (cartas_por_naipe[naipe] == -1) {
+            resultado += "erro\n";
+        } else {
+            resultado += to_string(13 - cartas_por_naipe[naipe]) + "\n";
+        }
     }
+
+    cout << resultado << endl;
+
     return 0;
 }
