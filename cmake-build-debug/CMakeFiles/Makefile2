@@ -80,6 +80,7 @@ all: CMakeFiles/zero.dir/all
 all: CMakeFiles/zeroH.dir/all
 all: CMakeFiles/chuva.dir/all
 all: CMakeFiles/baralho.dir/all
+all: CMakeFiles/paciente.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -104,6 +105,7 @@ clean: CMakeFiles/zero.dir/clean
 clean: CMakeFiles/zeroH.dir/clean
 clean: CMakeFiles/chuva.dir/clean
 clean: CMakeFiles/baralho.dir/clean
+clean: CMakeFiles/paciente.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -165,7 +167,7 @@ CMakeFiles/figurinhas.dir/clean:
 CMakeFiles/segredo-cofre.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segredo-cofre.dir/build.make CMakeFiles/segredo-cofre.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segredo-cofre.dir/build.make CMakeFiles/segredo-cofre.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target segredo-cofre"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target segredo-cofre"
 .PHONY : CMakeFiles/segredo-cofre.dir/all
 
 # Build rule for subdir invocation for target.
@@ -269,7 +271,7 @@ CMakeFiles/nota.dir/clean:
 CMakeFiles/wifi.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wifi.dir/build.make CMakeFiles/wifi.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wifi.dir/build.make CMakeFiles/wifi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target wifi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target wifi"
 .PHONY : CMakeFiles/wifi.dir/all
 
 # Build rule for subdir invocation for target.
@@ -295,7 +297,7 @@ CMakeFiles/wifi.dir/clean:
 CMakeFiles/visita.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/visita.dir/build.make CMakeFiles/visita.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/visita.dir/build.make CMakeFiles/visita.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target visita"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target visita"
 .PHONY : CMakeFiles/visita.dir/all
 
 # Build rule for subdir invocation for target.
@@ -347,7 +349,7 @@ CMakeFiles/chuvaH.dir/clean:
 CMakeFiles/torneio.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/torneio.dir/build.make CMakeFiles/torneio.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/torneio.dir/build.make CMakeFiles/torneio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target torneio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target torneio"
 .PHONY : CMakeFiles/torneio.dir/all
 
 # Build rule for subdir invocation for target.
@@ -373,7 +375,7 @@ CMakeFiles/torneio.dir/clean:
 CMakeFiles/tempo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tempo.dir/build.make CMakeFiles/tempo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tempo.dir/build.make CMakeFiles/tempo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target tempo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target tempo"
 .PHONY : CMakeFiles/tempo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -399,7 +401,7 @@ CMakeFiles/tempo.dir/clean:
 CMakeFiles/torneioH.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/torneioH.dir/build.make CMakeFiles/torneioH.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/torneioH.dir/build.make CMakeFiles/torneioH.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target torneioH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target torneioH"
 .PHONY : CMakeFiles/torneioH.dir/all
 
 # Build rule for subdir invocation for target.
@@ -425,7 +427,7 @@ CMakeFiles/torneioH.dir/clean:
 CMakeFiles/tempoH.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tempoH.dir/build.make CMakeFiles/tempoH.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tempoH.dir/build.make CMakeFiles/tempoH.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target tempoH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target tempoH"
 .PHONY : CMakeFiles/tempoH.dir/all
 
 # Build rule for subdir invocation for target.
@@ -451,7 +453,7 @@ CMakeFiles/tempoH.dir/clean:
 CMakeFiles/zero.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zero.dir/build.make CMakeFiles/zero.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zero.dir/build.make CMakeFiles/zero.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target zero"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target zero"
 .PHONY : CMakeFiles/zero.dir/all
 
 # Build rule for subdir invocation for target.
@@ -477,7 +479,7 @@ CMakeFiles/zero.dir/clean:
 CMakeFiles/zeroH.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zeroH.dir/build.make CMakeFiles/zeroH.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zeroH.dir/build.make CMakeFiles/zeroH.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target zeroH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target zeroH"
 .PHONY : CMakeFiles/zeroH.dir/all
 
 # Build rule for subdir invocation for target.
@@ -547,6 +549,32 @@ baralho: CMakeFiles/baralho.dir/rule
 CMakeFiles/baralho.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/baralho.dir/build.make CMakeFiles/baralho.dir/clean
 .PHONY : CMakeFiles/baralho.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/paciente.dir
+
+# All Build rule for target.
+CMakeFiles/paciente.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paciente.dir/build.make CMakeFiles/paciente.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paciente.dir/build.make CMakeFiles/paciente.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target paciente"
+.PHONY : CMakeFiles/paciente.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/paciente.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/paciente.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/paciente.dir/rule
+
+# Convenience name for target.
+paciente: CMakeFiles/paciente.dir/rule
+.PHONY : paciente
+
+# clean rule for target.
+CMakeFiles/paciente.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paciente.dir/build.make CMakeFiles/paciente.dir/clean
+.PHONY : CMakeFiles/paciente.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

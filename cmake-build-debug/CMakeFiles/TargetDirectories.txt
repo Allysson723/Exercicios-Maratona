@@ -15,5 +15,6 @@
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/zeroH.dir
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/chuva.dir
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/baralho.dir
+/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/paciente.dir
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/CMakeFiles/rebuild_cache.dir

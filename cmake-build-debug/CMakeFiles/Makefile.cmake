@@ -64,4 +64,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/zeroH.dir/DependInfo.cmake"
   "CMakeFiles/chuva.dir/DependInfo.cmake"
   "CMakeFiles/baralho.dir/DependInfo.cmake"
+  "CMakeFiles/paciente.dir/DependInfo.cmake"
   )

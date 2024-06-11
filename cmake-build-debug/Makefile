@@ -337,6 +337,19 @@ baralho/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/baralho.dir/build.make CMakeFiles/baralho.dir/build
 .PHONY : baralho/fast
 
+#=============================================================================
+# Target rules for targets named paciente
+
+# Build rule for target.
+paciente: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 paciente
+.PHONY : paciente
+
+# fast build rule for target.
+paciente/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paciente.dir/build.make CMakeFiles/paciente.dir/build
+.PHONY : paciente/fast
+
 Semana1/figurinhas-otimizado.o: Semana1/figurinhas-otimizado.cpp.o
 .PHONY : Semana1/figurinhas-otimizado.o
 
@@ -577,6 +590,30 @@ Semana5/allysson/baralho.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/baralho.dir/build.make CMakeFiles/baralho.dir/Semana5/allysson/baralho.cpp.s
 .PHONY : Semana5/allysson/baralho.cpp.s
 
+Semana5/allysson/paciente.o: Semana5/allysson/paciente.cpp.o
+.PHONY : Semana5/allysson/paciente.o
+
+# target to build an object file
+Semana5/allysson/paciente.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paciente.dir/build.make CMakeFiles/paciente.dir/Semana5/allysson/paciente.cpp.o
+.PHONY : Semana5/allysson/paciente.cpp.o
+
+Semana5/allysson/paciente.i: Semana5/allysson/paciente.cpp.i
+.PHONY : Semana5/allysson/paciente.i
+
+# target to preprocess a source file
+Semana5/allysson/paciente.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paciente.dir/build.make CMakeFiles/paciente.dir/Semana5/allysson/paciente.cpp.i
+.PHONY : Semana5/allysson/paciente.cpp.i
+
+Semana5/allysson/paciente.s: Semana5/allysson/paciente.cpp.s
+.PHONY : Semana5/allysson/paciente.s
+
+# target to generate assembly for a file
+Semana5/allysson/paciente.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paciente.dir/build.make CMakeFiles/paciente.dir/Semana5/allysson/paciente.cpp.s
+.PHONY : Semana5/allysson/paciente.cpp.s
+
 Semana5/allysson/tempo.o: Semana5/allysson/tempo.cpp.o
 .PHONY : Semana5/allysson/tempo.o
 
@@ -761,6 +798,7 @@ help:
 	@echo "... figurinhas-otimizado"
 	@echo "... jogo"
 	@echo "... nota"
+	@echo "... paciente"
 	@echo "... segredo-cofre"
 	@echo "... tempo"
 	@echo "... tempoH"
@@ -800,6 +838,9 @@ help:
 	@echo "... Semana5/allysson/baralho.o"
 	@echo "... Semana5/allysson/baralho.i"
 	@echo "... Semana5/allysson/baralho.s"
+	@echo "... Semana5/allysson/paciente.o"
+	@echo "... Semana5/allysson/paciente.i"
+	@echo "... Semana5/allysson/paciente.s"
 	@echo "... Semana5/allysson/tempo.o"
 	@echo "... Semana5/allysson/tempo.i"
 	@echo "... Semana5/allysson/tempo.s"
