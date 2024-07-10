@@ -1,66 +1,84 @@
 #include <iostream>
 #include <vector>
+#include <queue>
+#include <unordered_map>
+#include <set>
 
 using namespace std;
 
-bool encontraRodovia(int A, int B, vector<pair<int, int>> rodovias) {
+// Função para realizar uma busca em largura (BFS) a partir da cidade `inicio`
+void bfs(int inicio, const unordered_map<int, vector<int>>& vizinhos, vector<bool>& visitado) {
+    queue<int> fila;
+    fila.push(inicio);
+    visitado[inicio] = true;
 
-    for (auto &rodovia: rodovias) {
-        if (rodovia.first == A && rodovia.second == B) {
-            return true;
-        }else if(rodovia.first == A) {
-            return encontraRodovia(rodovia.first, B, rodovias);
+    while (!fila.empty()) {
+        // Retorna a adição mais recente a fila
+        int cidade = fila.front();
+        fila.pop();
+
+        // Passa por todos os vizinhos e os adiciona na fila
+        // Cada vizinho vizidado representa um caminho a partir da cidade início
+        for (int vizinho : vizinhos.at(cidade)) {
+            if (!visitado[vizinho]) {
+                visitado[vizinho] = true;
+                fila.push(vizinho);
+            }
+        }
+    }
+}
+
+// Função para verificar se o grafo é fortemente conexo
+bool verificaConectividade(int N, const unordered_map<int, vector<int>>& adj) {
+    vector<bool> visitado(N + 1, false);
+
+    // Verifica se todas as cidades são acessíveis a partir da cidade 1
+    bfs(1, adj, visitado);
+    for (int i = 1; i <= N; ++i) {
+        if (!visitado[i]) {
+            return false;
         }
     }
 
-    /*  6
-        1 2
-        2 3
-        3 1
-        4 5
-        5 6
-        6 4
-        */
+    // Cria o grafo transposto
+    unordered_map<int, vector<int>> vizinhosTransposto;
+    for (const auto& par : adj) {
+        for (int vizinho : par.second) {
+            vizinhosTransposto[vizinho].push_back(par.first);
+        }
+    }
 
-    /*  6
-        1 2
-        2 3
-        4 1
-        5 6
-        3 5
-        6 4
-*/
+    // Seta o vetor inteiro para falso
+    fill(visitado.begin(), visitado.end(), false);
 
+    // Verifica se todas as cidades podem alcançar a cidade 1 no grafo transposto
+    bfs(1, vizinhosTransposto, visitado);
+    for (int i = 1; i <= N; ++i) {
+        if (!visitado[i]) {
+            return false;
+        }
+    }
+
+    return true;
 }
 
 int main() {
     int N;
     cin >> N;
 
-    vector<pair<int, int>> rodovias(N);
+    unordered_map<int, vector<int>> adj;
 
     for (int i = 0; i < N; ++i) {
         int A, B;
         cin >> A >> B;
-        //caso a cidade A já tenha uma rodovia de saída o plano está errado
-        //o mesmo vale caso a cidade B já tenha uma rodovia de entrada
-       /* for (auto &rodovia: rodovias) {
-            *//*cout << "A: " << rodovia.first << ", B: " << rodovia.second << endl;*//*
-            if (rodovia.first == A || rodovia.second == B) {
-                cout << "N";
-                return 0;
-            }
-        }*/
-        rodovias[i] = {A, B};
+        adj[A].push_back(B);
     }
 
-    for (int i = 0; i < N; ++i) {
-
-        encontraRodovia()
+    if (verificaConectividade(N, adj)) {
+        cout << 'S' << endl;
+    } else {
+        cout << 'N' << endl;
     }
-
-    cout << "S";
 
     return 0;
-
 }

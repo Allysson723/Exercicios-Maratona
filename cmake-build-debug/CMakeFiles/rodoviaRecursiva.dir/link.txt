@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/rodoviaRecursiva.dir/Semana6/allysson/rodoviaRecursiva.cpp.o -o rodoviaRecursiva 

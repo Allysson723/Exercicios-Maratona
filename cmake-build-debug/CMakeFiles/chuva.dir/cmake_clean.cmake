@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/chuva.dir/Semana4/allysson/chuva.cpp.obj"
-  "CMakeFiles/chuva.dir/Semana4/allysson/chuva.cpp.obj.d"
-  "chuva.exe"
-  "chuva.exe.manifest"
+  "CMakeFiles/chuva.dir/Semana4/allysson/chuva.cpp.o"
+  "CMakeFiles/chuva.dir/Semana4/allysson/chuva.cpp.o.d"
+  "chuva"
   "chuva.pdb"
-  "libchuva.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,3 +1,1 @@
-"C:\Users\0063398\AppData\Local\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\tempoH.dir/objects.a
-C:\Users\0063398\AppData\Local\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\tempoH.dir/objects.a @CMakeFiles\tempoH.dir\objects1.rsp
-C:\Users\0063398\AppData\Local\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\tempoH.dir/objects.a -Wl,--no-whole-archive -o tempoH.exe -Wl,--out-implib,libtempoH.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\tempoH.dir\linkLibs.rsp
+/usr/bin/c++ -g CMakeFiles/tempoH.dir/Semana5/henrique/tempo.cpp.o -o tempoH 
