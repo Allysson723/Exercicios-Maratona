@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/zero.dir/Semana5/allysson/zero.cpp.o"
-  "CMakeFiles/zero.dir/Semana5/allysson/zero.cpp.o.d"
-  "zero"
+  "CMakeFiles/zero.dir/Semana5/allysson/zero.cpp.obj"
+  "CMakeFiles/zero.dir/Semana5/allysson/zero.cpp.obj.d"
+  "libzero.dll.a"
+  "zero.exe"
+  "zero.exe.manifest"
   "zero.pdb"
 )
 
