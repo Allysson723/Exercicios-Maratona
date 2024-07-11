@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/rodoviaRecursiva.dir/Semana6/allysson/rodoviaRecursiva.cpp.obj"
-  "CMakeFiles/rodoviaRecursiva.dir/Semana6/allysson/rodoviaRecursiva.cpp.obj.d"
-  "librodoviaRecursiva.dll.a"
-  "rodoviaRecursiva.exe"
-  "rodoviaRecursiva.exe.manifest"
+  "CMakeFiles/rodoviaRecursiva.dir/Semana6/allysson/rodoviaRecursiva.cpp.o"
+  "CMakeFiles/rodoviaRecursiva.dir/Semana6/allysson/rodoviaRecursiva.cpp.o.d"
+  "rodoviaRecursiva"
   "rodoviaRecursiva.pdb"
 )
 

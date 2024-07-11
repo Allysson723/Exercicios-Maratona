@@ -8,1071 +8,1071 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Exercicios_Maratona">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Exercicios_Maratona.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Exercicios_Maratona" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exercicios_Maratona"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exercicios_Maratona"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Exercicios_Maratona/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Exercicios_Maratona.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Exercicios_Maratona" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exercicios_Maratona/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exercicios_Maratona/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="figurinhas">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/figurinhas.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/figurinhas" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 figurinhas"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 figurinhas"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="figurinhas/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/figurinhas.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/figurinhas" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 figurinhas/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 figurinhas/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="segredo-cofre">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/segredo-cofre.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/segredo-cofre" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 segredo-cofre"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 segredo-cofre"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="segredo-cofre/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/segredo-cofre.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/segredo-cofre" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 segredo-cofre/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 segredo-cofre/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="figurinhas-otimizado">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/figurinhas-otimizado.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/figurinhas-otimizado" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 figurinhas-otimizado"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 figurinhas-otimizado"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="figurinhas-otimizado/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/figurinhas-otimizado.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/figurinhas-otimizado" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 figurinhas-otimizado/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 figurinhas-otimizado/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="jogo">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/jogo.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/jogo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 jogo"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 jogo"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="jogo/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/jogo.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/jogo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 jogo/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 jogo/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nota">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/nota.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/nota" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 nota"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 nota"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nota/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/nota.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/nota" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 nota/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 nota/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="wifi">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/wifi.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/wifi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 wifi"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 wifi"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="wifi/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/wifi.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/wifi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 wifi/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 wifi/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="visita">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/visita.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/visita" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 visita"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 visita"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="visita/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/visita.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/visita" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 visita/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 visita/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="chuvaH">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/chuvaH.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/chuvaH" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 chuvaH"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 chuvaH"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="chuvaH/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/chuvaH.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/chuvaH" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 chuvaH/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 chuvaH/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="torneio">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/torneio.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/torneio" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 torneio"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 torneio"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="torneio/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/torneio.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/torneio" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 torneio/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 torneio/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tempo">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/tempo.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/tempo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 tempo"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 tempo"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tempo/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/tempo.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/tempo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 tempo/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 tempo/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="torneioH">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/torneioH.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/torneioH" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 torneioH"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 torneioH"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="torneioH/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/torneioH.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/torneioH" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 torneioH/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 torneioH/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tempoH">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/tempoH.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/tempoH" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 tempoH"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 tempoH"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tempoH/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/tempoH.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/tempoH" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 tempoH/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 tempoH/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="zero">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/zero.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/zero" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 zero"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 zero"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="zero/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/zero.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/zero" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 zero/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 zero/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="zeroH">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/zeroH.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/zeroH" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 zeroH"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 zeroH"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="zeroH/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/zeroH.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/zeroH" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 zeroH/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 zeroH/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="chuva">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/chuva.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/chuva" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 chuva"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 chuva"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="chuva/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/chuva.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/chuva" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 chuva/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 chuva/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="baralho">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/baralho.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/baralho" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 baralho"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 baralho"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="baralho/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/baralho.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/baralho" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 baralho/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 baralho/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="paciente">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/paciente.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/paciente" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 paciente"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 paciente"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="paciente/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/paciente.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/paciente" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 paciente/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 paciente/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="musica">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/musica.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/musica" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 musica"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 musica"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="musica/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/musica.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/musica" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 musica/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="detetive">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/detetive.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 detetive"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="detetive/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/detetive.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 detetive/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 musica/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rodoviaRecursiva">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/rodoviaRecursiva.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/rodoviaRecursiva" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 rodoviaRecursiva"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 rodoviaRecursiva"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rodoviaRecursiva/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/rodoviaRecursiva.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/rodoviaRecursiva" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 rodoviaRecursiva/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 rodoviaRecursiva/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rodovia">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/rodovia.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/rodovia" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 rodovia"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 rodovia"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rodovia/fast">
-				<Option output="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/rodovia.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/rodovia" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/0063398/AppData/Local/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 rodovia/fast"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 rodovia/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="detetive">
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/detetive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 detetive"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="detetive/fast">
+				<Option output="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/detetive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 detetive/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
+				<Option working_dir="/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/0063398/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/anybody/Documents/Projects/Exercicios-Maratona/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana1/figurinhas-otimizado.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana1/figurinhas-otimizado.cpp">
 			<Option target="figurinhas-otimizado"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana1/figurinhas.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana1/figurinhas.cpp">
 			<Option target="figurinhas"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana1/segredo-cofre.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana1/segredo-cofre.cpp">
 			<Option target="segredo-cofre"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana2/jogo.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana2/jogo.cpp">
 			<Option target="jogo"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana2/nota.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana2/nota.cpp">
 			<Option target="nota"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana2/wifi.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana2/wifi.cpp">
 			<Option target="wifi"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana3/visita.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana3/visita.cpp">
 			<Option target="visita"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana4/allysson/chuva.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana4/allysson/chuva.cpp">
 			<Option target="chuva"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana4/henrique/chuva.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana4/henrique/chuva.cpp">
 			<Option target="chuvaH"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana5/allysson/baralho.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana5/allysson/baralho.cpp">
 			<Option target="baralho"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana5/allysson/musica.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana5/allysson/musica.cpp">
 			<Option target="musica"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana5/allysson/paciente.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana5/allysson/paciente.cpp">
 			<Option target="paciente"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana5/allysson/tempo.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana5/allysson/tempo.cpp">
 			<Option target="tempo"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana5/allysson/torneio.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana5/allysson/torneio.cpp">
 			<Option target="torneio"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana5/allysson/zero.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana5/allysson/zero.cpp">
 			<Option target="zero"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana5/henrique/tempo.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana5/henrique/tempo.cpp">
 			<Option target="tempoH"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana5/henrique/torneio.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana5/henrique/torneio.cpp">
 			<Option target="torneioH"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana5/henrique/zero.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana5/henrique/zero.cpp">
 			<Option target="zeroH"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana6/allysson/detetive.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana6/allysson/detetive.cpp">
 			<Option target="detetive"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana6/allysson/rodovia.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana6/allysson/rodovia.cpp">
 			<Option target="rodovia"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana6/allysson/rodoviaRecursiva.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/Semana6/allysson/rodoviaRecursiva.cpp">
 			<Option target="rodoviaRecursiva"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/main.cpp">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/main.cpp">
 			<Option target="Exercicios_Maratona"/>
 		</Unit>
-		<Unit filename="C:/Users/0063398/Documents/Projects/Exercicios-Maratona/CMakeLists.txt">
+		<Unit filename="/home/anybody/Documents/Projects/Exercicios-Maratona/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

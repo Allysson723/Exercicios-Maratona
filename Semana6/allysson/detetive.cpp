@@ -2,6 +2,7 @@
 #include <vector>
 #include <queue>
 #include <unordered_map>
+#include <unordered_set>
 #include <algorithm>
 
 using namespace std;
@@ -28,28 +29,57 @@ void verificaConsequencias(int inicio, const unordered_map<int, vector<int>> &ca
     }
 }
 
-void verificaCausas(const unordered_map<int, vector<int>> &consequencias, vector<bool> &visitado, vector<int> &verdadeiros) {
+void verificaCausas(int inicio, const unordered_map<int, vector<int>> &consequencias, vector<int> &verdadeiros) {
+    queue<int> fila;
+    unordered_set<int> elementosNaFila;
+    unordered_set<int> possiveisNovosVerdadeiros;
+
+    fila.push(inicio);
+    elementosNaFila.insert(inicio);
     bool mudanca = true;
+
     while (mudanca) {
         mudanca = false;
-        vector<int> novosVerdadeiros;
-        for (int evento: verdadeiros) {
-            if (consequencias.find(evento) != consequencias.end()) {
-                for (int causa: consequencias.at(evento)) {
-                    if (!visitado[causa]) {
-                        if (consequencias.find(causa) != consequencias.end()) {
-                            if (consequencias.at(causa).size() == 1) {
-                                visitado[causa] = true;
-                                novosVerdadeiros.push_back(causa);
-                                mudanca = true;
-                            }
+        while (!fila.empty()) {
+            int evento = fila.front();
+            cout << "Evento: " << evento << endl;
+            elementosNaFila.erase(fila.front());
+            fila.pop();
+
+            auto it = consequencias.find(evento);
+            if (it != consequencias.end()) {
+                const vector<int>& causasEvento = it->second;
+                if(elementosNaFila.empty() && causasEvento.size() == 1){
+                    cout << "Passou direto: " << endl;
+                    int causa = causasEvento[0];
+                    verdadeiros.push_back(causa);
+                    fila.push(causa);
+                    elementosNaFila.insert(causa);
+                    mudanca = true;
+                }else{
+                    for (int causa: consequencias.at(evento)) {
+                        cout << "Causa: " << causa << endl;
+                        if (elementosNaFila.find(causa) == elementosNaFila.end()) {
+                            fila.push(causa);
+                            elementosNaFila.insert(causa);
+                            possiveisNovosVerdadeiros.insert(causa);
+                        }/*else if(elementosNaFila.size() == 1){
+                            return;
+                        }*/
+                    }
+                    for(int elementoFila : elementosNaFila){
+                        cout << "ElementoFila: " << elementoFila << endl;
+                    }
+                    if(elementosNaFila.size() == 1){
+                        // Causa primaria encontrada
+                        cout << "Deu certo: " << endl;
+                        for(int verdadeiro : possiveisNovosVerdadeiros){
+                            verdadeiros.push_back(verdadeiro);
+                            mudanca = true;
                         }
                     }
                 }
             }
-        }
-        for (int novo: novosVerdadeiros) {
-            verdadeiros.push_back(novo);
         }
     }
 }
@@ -78,8 +108,9 @@ int main() {
             verificaConsequencias(X, causas, visitado, verdadeiros);
         }
     }
-
-    verificaCausas(consequencias, visitado, verdadeiros);
+    for (int evento: verdadeiros) {
+        verificaCausas(evento, consequencias, verdadeiros);
+    }
 
     sort(verdadeiros.begin(), verdadeiros.end());
 
@@ -87,7 +118,6 @@ int main() {
         cout << evento << " ";
     }
     cout << endl;
-
 
 
     return 0;
