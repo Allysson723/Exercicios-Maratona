@@ -16,12 +16,13 @@ void verificaConsequencias(int inicio, const unordered_map<int, vector<int>> &ca
     while (!fila.empty()) {
         int evento = fila.front();
         fila.pop();
-
-        for (int consequencia: causas.at(evento)) {
-            if (!visitado[consequencia]) {
-                visitado[consequencia] = true;
-                verdadeiros.push_back(consequencia);
-                fila.push(consequencia);
+        if (causas.find(evento) != causas.end()) {
+            for (int consequencia: causas.at(evento)) {
+                if (!visitado[consequencia]) {
+                    visitado[consequencia] = true;
+                    verdadeiros.push_back(consequencia);
+                    fila.push(consequencia);
+                }
             }
         }
     }
@@ -36,10 +37,12 @@ void verificaCausas(const unordered_map<int, vector<int>> &consequencias, vector
             if (consequencias.find(evento) != consequencias.end()) {
                 for (int causa: consequencias.at(evento)) {
                     if (!visitado[causa]) {
-                        if (consequencias.at(causa).size() == 1) {
-                            visitado[causa] = true;
-                            novosVerdadeiros.push_back(causa);
-                            mudanca = true;
+                        if (consequencias.find(causa) != consequencias.end()) {
+                            if (consequencias.at(causa).size() == 1) {
+                                visitado[causa] = true;
+                                novosVerdadeiros.push_back(causa);
+                                mudanca = true;
+                            }
                         }
                     }
                 }
