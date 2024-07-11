@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/paciente.dir/Semana5/allysson/paciente.cpp.o"
-  "CMakeFiles/paciente.dir/Semana5/allysson/paciente.cpp.o.d"
-  "paciente"
+  "CMakeFiles/paciente.dir/Semana5/allysson/paciente.cpp.obj"
+  "CMakeFiles/paciente.dir/Semana5/allysson/paciente.cpp.obj.d"
+  "libpaciente.dll.a"
+  "paciente.exe"
+  "paciente.exe.manifest"
   "paciente.pdb"
 )
 

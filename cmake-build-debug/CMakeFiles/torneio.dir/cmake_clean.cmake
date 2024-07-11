@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/torneio.dir/Semana5/allysson/torneio.cpp.o"
-  "CMakeFiles/torneio.dir/Semana5/allysson/torneio.cpp.o.d"
-  "torneio"
+  "CMakeFiles/torneio.dir/Semana5/allysson/torneio.cpp.obj"
+  "CMakeFiles/torneio.dir/Semana5/allysson/torneio.cpp.obj.d"
+  "libtorneio.dll.a"
+  "torneio.exe"
+  "torneio.exe.manifest"
   "torneio.pdb"
 )
 

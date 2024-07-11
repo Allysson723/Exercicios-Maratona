@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/nota.dir/Semana2/nota.cpp.o"
-  "CMakeFiles/nota.dir/Semana2/nota.cpp.o.d"
-  "nota"
+  "CMakeFiles/nota.dir/Semana2/nota.cpp.obj"
+  "CMakeFiles/nota.dir/Semana2/nota.cpp.obj.d"
+  "libnota.dll.a"
+  "nota.exe"
+  "nota.exe.manifest"
   "nota.pdb"
 )
 
