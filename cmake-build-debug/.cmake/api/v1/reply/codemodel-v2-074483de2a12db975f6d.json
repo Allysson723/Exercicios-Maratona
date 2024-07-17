@@ -1,0 +1,249 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Exercicios_Maratona",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Exercicios_Maratona::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Exercicios_Maratona-Debug-2dae0ee85108ff0dcda8.json",
+					"name" : "Exercicios_Maratona",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "baralho::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-baralho-Debug-8722edbbe4d2e41086a8.json",
+					"name" : "baralho",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chuva::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chuva-Debug-8ef9f7554746d1b9c222.json",
+					"name" : "chuva",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chuvaH::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chuvaH-Debug-cac4fe35fd905b09541d.json",
+					"name" : "chuvaH",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "detetive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-detetive-Debug-8aa9ca7eb0ea209c29eb.json",
+					"name" : "detetive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "figurinhas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-figurinhas-Debug-6f97e9fca01b9fee5d16.json",
+					"name" : "figurinhas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "figurinhas-otimizado::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-figurinhas-otimizado-Debug-8e5174e933b3d18451c2.json",
+					"name" : "figurinhas-otimizado",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jogo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jogo-Debug-4656a6a1e635edf38889.json",
+					"name" : "jogo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "musica::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-musica-Debug-79c871d1d0b5f9faeb2d.json",
+					"name" : "musica",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nota::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nota-Debug-e99160cd5af656fbaedf.json",
+					"name" : "nota",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "paciente::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-paciente-Debug-844f896eac0441b084ee.json",
+					"name" : "paciente",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rodovia::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rodovia-Debug-dd724e96231af48d2432.json",
+					"name" : "rodovia",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rodoviaRecursiva::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rodoviaRecursiva-Debug-adcbc4f909a1b6cb2b92.json",
+					"name" : "rodoviaRecursiva",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "segredo-cofre::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-segredo-cofre-Debug-2e5d2158ce04408036ac.json",
+					"name" : "segredo-cofre",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tempo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tempo-Debug-b52c450a3cbae681b2e4.json",
+					"name" : "tempo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tempoH::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tempoH-Debug-7dd7a72ec3addb7dfbe9.json",
+					"name" : "tempoH",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "torneio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-torneio-Debug-63536355bca2a20e03b5.json",
+					"name" : "torneio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "torneioH::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-torneioH-Debug-00c34069073a66783475.json",
+					"name" : "torneioH",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "visita::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-visita-Debug-faa2346a11e7fdd08cfd.json",
+					"name" : "visita",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wifi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wifi-Debug-ba05bdfaf96ba806f05c.json",
+					"name" : "wifi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zero::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zero-Debug-741e52b78e75452876e0.json",
+					"name" : "zero",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zeroH::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zeroH-Debug-408c00b3441e36bd4334.json",
+					"name" : "zeroH",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/0063398/Documents/Projects/Exercicios-Maratona/cmake-build-debug",
+		"source" : "C:/Users/0063398/Documents/Projects/Exercicios-Maratona"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

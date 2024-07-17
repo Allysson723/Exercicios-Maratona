@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/baralho.dir/Semana5/allysson/baralho.cpp.o"
-  "CMakeFiles/baralho.dir/Semana5/allysson/baralho.cpp.o.d"
-  "baralho"
+  "CMakeFiles/baralho.dir/Semana5/allysson/baralho.cpp.obj"
+  "CMakeFiles/baralho.dir/Semana5/allysson/baralho.cpp.obj.d"
+  "baralho.exe"
+  "baralho.exe.manifest"
   "baralho.pdb"
+  "libbaralho.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

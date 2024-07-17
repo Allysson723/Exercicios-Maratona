@@ -42,7 +42,7 @@ void verificaCausas(int inicio, const unordered_map<int, vector<int>> &consequen
         mudanca = false;
         while (!fila.empty()) {
             int evento = fila.front();
-            cout << "Evento: " << evento << endl;
+            /*cout << "Evento: " << evento << endl;*/
             elementosNaFila.erase(fila.front());
             fila.pop();
 
@@ -50,7 +50,7 @@ void verificaCausas(int inicio, const unordered_map<int, vector<int>> &consequen
             if (it != consequencias.end()) {
                 const vector<int>& causasEvento = it->second;
                 if(elementosNaFila.empty() && causasEvento.size() == 1){
-                    cout << "Passou direto: " << endl;
+                    /*cout << "Passou direto: " << endl;*/
                     int causa = causasEvento[0];
                     verdadeiros.push_back(causa);
                     fila.push(causa);
@@ -58,7 +58,7 @@ void verificaCausas(int inicio, const unordered_map<int, vector<int>> &consequen
                     mudanca = true;
                 }else{
                     for (int causa: consequencias.at(evento)) {
-                        cout << "Causa: " << causa << endl;
+                        /*cout << "Causa: " << causa << endl;*/
                         if (elementosNaFila.find(causa) == elementosNaFila.end()) {
                             fila.push(causa);
                             elementosNaFila.insert(causa);
@@ -67,12 +67,12 @@ void verificaCausas(int inicio, const unordered_map<int, vector<int>> &consequen
                             return;
                         }*/
                     }
-                    for(int elementoFila : elementosNaFila){
+                    /*for(int elementoFila : elementosNaFila){
                         cout << "ElementoFila: " << elementoFila << endl;
-                    }
+                    }*/
                     if(elementosNaFila.size() == 1){
                         // Causa primaria encontrada
-                        cout << "Deu certo: " << endl;
+                        /*cout << "Deu certo: " << endl;*/
                         for(int verdadeiro : possiveisNovosVerdadeiros){
                             verdadeiros.push_back(verdadeiro);
                             mudanca = true;
