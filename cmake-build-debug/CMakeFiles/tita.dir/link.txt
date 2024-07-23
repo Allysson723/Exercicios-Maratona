@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/tita.dir/Semana7/allysson/tita.cpp.o -o tita 

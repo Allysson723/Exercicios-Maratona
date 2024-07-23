@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/labirintos.dir/Semana7/allysson/labirintos.cpp.o -o labirintos 
