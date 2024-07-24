@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/detetive.dir/Semana6/allysson/detetive.cpp.obj"
-  "CMakeFiles/detetive.dir/Semana6/allysson/detetive.cpp.obj.d"
-  "detetive.exe"
-  "detetive.exe.manifest"
+  "CMakeFiles/detetive.dir/Semana6/allysson/detetive.cpp.o"
+  "CMakeFiles/detetive.dir/Semana6/allysson/detetive.cpp.o.d"
+  "detetive"
   "detetive.pdb"
-  "libdetetive.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
