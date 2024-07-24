@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cloud.dir/Semana7/allysson/cloud.cpp.o"
-  "CMakeFiles/cloud.dir/Semana7/allysson/cloud.cpp.o.d"
-  "cloud"
+  "CMakeFiles/cloud.dir/Semana7/allysson/cloud.cpp.obj"
+  "CMakeFiles/cloud.dir/Semana7/allysson/cloud.cpp.obj.d"
+  "cloud.exe"
+  "cloud.exe.manifest"
   "cloud.pdb"
+  "libcloud.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
