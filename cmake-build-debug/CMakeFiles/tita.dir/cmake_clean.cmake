@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tita.dir/Semana7/allysson/tita.cpp.obj"
-  "CMakeFiles/tita.dir/Semana7/allysson/tita.cpp.obj.d"
-  "libtita.dll.a"
-  "tita.exe"
-  "tita.exe.manifest"
+  "CMakeFiles/tita.dir/Semana7/allysson/tita.cpp.o"
+  "CMakeFiles/tita.dir/Semana7/allysson/tita.cpp.o.d"
+  "tita"
   "tita.pdb"
 )
 

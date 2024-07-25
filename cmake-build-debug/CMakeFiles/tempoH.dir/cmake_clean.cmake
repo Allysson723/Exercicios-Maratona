@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tempoH.dir/Semana5/henrique/tempo.cpp.obj"
-  "CMakeFiles/tempoH.dir/Semana5/henrique/tempo.cpp.obj.d"
-  "libtempoH.dll.a"
-  "tempoH.exe"
-  "tempoH.exe.manifest"
+  "CMakeFiles/tempoH.dir/Semana5/henrique/tempo.cpp.o"
+  "CMakeFiles/tempoH.dir/Semana5/henrique/tempo.cpp.o.d"
+  "tempoH"
   "tempoH.pdb"
 )
 

@@ -1,20 +1,18 @@
 #include <iostream>
 #include <vector>
 #include <unordered_map>
+#include <algorithm>
 
 using namespace std;
 
-//conecta um cliente ao mesmo servidor mais de uma vez
 void conectaCliente(vector<string> aplicacoesCliente, unordered_map<string, vector<int>> aplicacoes, int &conexoes) {
-    for(string aplicacaoCliente : aplicacoesCliente){
-        //passar por todas as aplicações e quando forem iguais a aplicacao do cliente fazer uma conexão para cada servidor que a fornece e retirar esse servidor
-        for(int i = 0; i < aplicacoes.size(); i++){
-            for(string aplicacao : aplicacoes.at()){
-                if(aplicacoesCliente == aplicacaoS){
-                    conexoes++;
-                    break;
-                }
-            }
+    for (string aplicacaoCliente: aplicacoesCliente) {
+        for (int servidor: aplicacoes.at(aplicacaoCliente)) {
+            auto it = aplicacoes.find(aplicacaoCliente);
+            vector<int>& servidores = it->second;
+            servidores.erase(find(servidores.begin(), servidores.end(), servidor));
+            conexoes++;
+            break;
         }
     }
 }
@@ -23,7 +21,7 @@ int main() {
     int N, M;
     cin >> N >> M;
 
-    while(N != M && N != 0){
+    while (N != M && N != 0) {
         int conexoes = 0;
         unordered_map<string, vector<int>> aplicacoes;
         unordered_map<int, vector<string>> clientes;
@@ -46,7 +44,7 @@ int main() {
                 clientes[i].push_back(A);
             }
         }
-        for(int i = 0; i < M; i++){
+        for (int i = 0; i < M; i++) {
             auto it = clientes.find(i);
             vector<string> aplicacoesCliente = it->second;
             conectaCliente(aplicacoesCliente, aplicacoes, conexoes);
