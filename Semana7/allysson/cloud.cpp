@@ -1,18 +1,17 @@
 #include <iostream>
 #include <vector>
 #include <unordered_map>
-#include <algorithm>
+#include <unordered_set>
+#include <string>
 
 using namespace std;
 
-void conectaCliente(vector<string> aplicacoesCliente, unordered_map<string, vector<int>> aplicacoes, int &conexoes) {
-    for (string aplicacaoCliente: aplicacoesCliente) {
-        for (int servidor: aplicacoes.at(aplicacaoCliente)) {
-            auto it = aplicacoes.find(aplicacaoCliente);
-            vector<int>& servidores = it->second;
-            servidores.erase(find(servidores.begin(), servidores.end(), servidor));
-            conexoes++;
-            break;
+void conectaCliente(const vector<string>& aplicacoesCliente, const unordered_map<string, unordered_set<int>>& aplicacoes, unordered_set<string>& conexoes, int cliente) {
+    for (const string& aplicacaoCliente : aplicacoesCliente) {
+        if (aplicacoes.find(aplicacaoCliente) != aplicacoes.end()) {
+            for (int servidor : aplicacoes.at(aplicacaoCliente)) {
+                conexoes.insert(to_string(cliente) + "-" + to_string(servidor));
+            }
         }
     }
 }
@@ -21,20 +20,22 @@ int main() {
     int N, M;
     cin >> N >> M;
 
-    while (N != M && N != 0) {
-        int conexoes = 0;
-        unordered_map<string, vector<int>> aplicacoes;
+    while (N != 0 || M != 0) {
+        unordered_map<string, unordered_set<int>> aplicacoes;
         unordered_map<int, vector<string>> clientes;
+
+        // Leitura dos servidores
         for (int i = 0; i < N; i++) {
             int S;
             cin >> S;
             for (int j = 0; j < S; j++) {
                 string A;
                 cin >> A;
-                aplicacoes[A].push_back(j);
+                aplicacoes[A].insert(i);
             }
         }
 
+        // Leitura dos clientes
         for (int i = 0; i < M; i++) {
             int C;
             cin >> C;
@@ -44,13 +45,16 @@ int main() {
                 clientes[i].push_back(A);
             }
         }
+
+        // O set impede o armazenamento de conexões duplicadas
+        unordered_set<string> conexoes_unicas;
+
+        // Processamento das conexões
         for (int i = 0; i < M; i++) {
-            auto it = clientes.find(i);
-            vector<string> aplicacoesCliente = it->second;
-            conectaCliente(aplicacoesCliente, aplicacoes, conexoes);
+            conectaCliente(clientes[i], aplicacoes, conexoes_unicas, i);
         }
-        cout << conexoes << endl;
-        conexoes = 0;
+
+        cout << conexoes_unicas.size() << endl;
         cin >> N >> M;
     }
     return 0;

@@ -173,11 +173,6 @@ CMakeFiles/cloud.dir/Semana7/allysson/cloud.cpp.o: \
  /usr/include/c++/13.2.0/bits/enable_special_members.h \
  /usr/include/c++/13.2.0/bits/node_handle.h \
  /usr/include/c++/13.2.0/bits/erase_if.h \
- /usr/include/c++/13.2.0/algorithm \
- /usr/include/c++/13.2.0/bits/stl_algo.h \
- /usr/include/c++/13.2.0/bits/algorithmfwd.h \
- /usr/include/c++/13.2.0/bits/stl_heap.h \
- /usr/include/c++/13.2.0/bits/uniform_int_dist.h \
- /usr/include/c++/13.2.0/bits/stl_tempbuf.h \
- /usr/include/c++/13.2.0/pstl/glue_algorithm_defs.h \
- /usr/include/c++/13.2.0/pstl/execution_defs.h
+ /usr/include/c++/13.2.0/unordered_set \
+ /usr/include/c++/13.2.0/bits/unordered_set.h \
+ /usr/include/c++/13.2.0/sstream /usr/include/c++/13.2.0/bits/sstream.tcc
