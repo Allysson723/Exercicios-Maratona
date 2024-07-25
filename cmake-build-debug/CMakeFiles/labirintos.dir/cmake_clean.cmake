@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/labirintos.dir/Semana7/allysson/labirintos.cpp.o"
-  "CMakeFiles/labirintos.dir/Semana7/allysson/labirintos.cpp.o.d"
-  "labirintos"
+  "CMakeFiles/labirintos.dir/Semana7/allysson/labirintos.cpp.obj"
+  "CMakeFiles/labirintos.dir/Semana7/allysson/labirintos.cpp.obj.d"
+  "labirintos.exe"
+  "labirintos.exe.manifest"
   "labirintos.pdb"
+  "liblabirintos.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

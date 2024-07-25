@@ -1,1 +1,3 @@
-/usr/bin/c++ -g CMakeFiles/paciente.dir/Semana5/allysson/paciente.cpp.o -o paciente 
+"C:\Users\0063398\AppData\Local\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\paciente.dir/objects.a
+C:\Users\0063398\AppData\Local\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\paciente.dir/objects.a @CMakeFiles\paciente.dir\objects1.rsp
+C:\Users\0063398\AppData\Local\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\paciente.dir/objects.a -Wl,--no-whole-archive -o paciente.exe -Wl,--out-implib,libpaciente.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\paciente.dir\linkLibs.rsp
