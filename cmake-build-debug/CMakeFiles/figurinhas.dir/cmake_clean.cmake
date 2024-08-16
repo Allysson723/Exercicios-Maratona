@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/figurinhas.dir/Semana1/figurinhas.cpp.obj"
-  "CMakeFiles/figurinhas.dir/Semana1/figurinhas.cpp.obj.d"
-  "figurinhas.exe"
-  "figurinhas.exe.manifest"
+  "CMakeFiles/figurinhas.dir/Semana1/figurinhas.cpp.o"
+  "CMakeFiles/figurinhas.dir/Semana1/figurinhas.cpp.o.d"
+  "figurinhas"
   "figurinhas.pdb"
-  "libfigurinhas.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

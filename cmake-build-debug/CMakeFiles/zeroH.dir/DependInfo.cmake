@@ -8,11 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/0063398/Documents/Projects/Exercicios-Maratona/Semana5/henrique/zero.cpp" "CMakeFiles/zeroH.dir/Semana5/henrique/zero.cpp.obj" "gcc" "CMakeFiles/zeroH.dir/Semana5/henrique/zero.cpp.obj.d"
+  "/home/anybody/Documents/Projects/Exercicios-Maratona/Semana5/henrique/zero.cpp" "CMakeFiles/zeroH.dir/Semana5/henrique/zero.cpp.o" "gcc" "CMakeFiles/zeroH.dir/Semana5/henrique/zero.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
 set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

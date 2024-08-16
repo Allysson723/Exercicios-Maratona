@@ -1,3 +1,1 @@
-"C:\Users\0063398\AppData\Local\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\visita.dir/objects.a
-C:\Users\0063398\AppData\Local\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\visita.dir/objects.a @CMakeFiles\visita.dir\objects1.rsp
-C:\Users\0063398\AppData\Local\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\visita.dir/objects.a -Wl,--no-whole-archive -o visita.exe -Wl,--out-implib,libvisita.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\visita.dir\linkLibs.rsp
+/usr/bin/c++ -g CMakeFiles/visita.dir/Semana3/visita.cpp.o -o visita

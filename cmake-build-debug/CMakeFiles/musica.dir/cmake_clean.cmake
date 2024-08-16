@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/musica.dir/Semana5/allysson/musica.cpp.obj"
-  "CMakeFiles/musica.dir/Semana5/allysson/musica.cpp.obj.d"
-  "libmusica.dll.a"
-  "musica.exe"
-  "musica.exe.manifest"
+  "CMakeFiles/musica.dir/Semana5/allysson/musica.cpp.o"
+  "CMakeFiles/musica.dir/Semana5/allysson/musica.cpp.o.d"
+  "musica"
   "musica.pdb"
 )
 

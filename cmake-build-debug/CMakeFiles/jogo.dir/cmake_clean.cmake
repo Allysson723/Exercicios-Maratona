@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/jogo.dir/Semana2/jogo.cpp.obj"
-  "CMakeFiles/jogo.dir/Semana2/jogo.cpp.obj.d"
-  "jogo.exe"
-  "jogo.exe.manifest"
+  "CMakeFiles/jogo.dir/Semana2/jogo.cpp.o"
+  "CMakeFiles/jogo.dir/Semana2/jogo.cpp.o.d"
+  "jogo"
   "jogo.pdb"
-  "libjogo.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
